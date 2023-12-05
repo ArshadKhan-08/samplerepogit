@@ -1,0 +1,23 @@
+rem "This is the local repo level commands only used at first time"
+  git init
+
+  git add README.md
+  git commit -m "first commit"
+
+
+
+rem "This is the remote repo level commands one time"
+
+  git branch -M main
+  git remote add origin https://github.com/ArshadKhan-08/sample.git
+  git push -u origin main
+
+rem "This will always works"
+
+git push
+
+
+rem "To reflect from remote repo"
+
+
+git pull
